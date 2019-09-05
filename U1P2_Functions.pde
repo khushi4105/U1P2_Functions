@@ -54,10 +54,9 @@ void draw()
   if (dist(fX2, fY2, xTopFlower, yTopFlower) < 50)
   { 
    //xTopFlower = xTopFlower + XDirection * fXSpeed * -1;
-   xDirection = xDirection *-1;
    
-   fX2 = fX2 + fXSpeed;
-   fY2 = fY2 - fXSpeed;
+   xTopFlower = 100;
+   
    //y = y + yDirection * ySpeed;
    
   }
